@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link href="https://fonts.googleapis.com/css?family=Italianno|Merriweather|Open+Sans" rel="stylesheet">
+    
+<link rel="stylesheet" href="../styles.css" type="text/css">
+    
+	<title> About </title>
+</head>
+
+<body>
+   <!-- slide navigation ! LINK https://www.youtube.com/watch?v=wpGNFGqNfdU         -->
+    <nav class="menu">
+        <div class="hamburger">
+            <a href="#" onclick="openSlideMenu()">
+                 <svg width="30" height="30"> <!-- draw simple icon -->
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>  
+                </svg>
+            </a> <!-- link to nowhere, make hamburger clickable -->
+            <h1>Conscious Coffee</h1>
+           
+        </div>
+        
+        <ul class="menu-links">
+            
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="menu.html" >Menu</a></li>
+            <li><a href="locations.html" >Locations</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        
+        </ul>
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="locations.html" >Locations</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>   
+    </div>
+     <img src="../img/lengde.jpg" alt="coffee beans"> <!-- Photo by Lukas from Pexels -->
+    
+    
+    <div id="main_about">
+        <h2>About</h2>
+        <div class="about-1">
+            <p>
+                Extra, body robusta robust fair trade id medium cup that aroma. And cup single shot strong viennese decaffeinated extra cappuccino acerbic a dark whipped. Sugar barista aged, body ut crema seasonal lungo froth viennese single shot.
+
+                Sit affogato, cream at siphon blue mountain medium white turkish decaffeinated aroma. Wings milk a, fair trade bar et, saucer café au lait caramelization grinder redeye plunger pot. Steamed, trifecta turkish a viennese et saucer.
+                
+                Dripper iced whipped barista seasonal cinnamon coffee roast. And aftertaste that eu frappuccino cappuccino milk variety. Caramelization brewed a single origin aftertaste roast seasonal.
+
+                Viennese breve mug redeye filter, barista spoon crema sweet lungo americano. Doppio, breve, irish latte roast black organic. Fair trade wings est robusta carajillo milk mug crema.
+            </p>
+        </div>
+        
+        <div class="about-2">
+            <p>
+                Percolator, viennese dripper id shop arabica chicory medium dark beans acerbic. Crema eu so beans french press macchiato rich crema dark. Irish dripper, kopi-luwak dripper sugar, a, steamed, caffeine at saucer mug froth. Rich extra bar crema and variety turkish.
+
+                Roast organic roast coffee half and half, arabica organic milk aftertaste seasonal cup caramelization. Sit single origin café au lait chicory steamed crema café au lait extra redeye. And black, aged sit black, arabica filter, doppio aromatic grinder qui redeye. Aromatic percolator variety decaffeinated, french press instant medium sweet qui iced.
+            </p>
+        </div>
+        
+        <div class="about-img"></div>
+        
+        <div class="about-3">
+            <p>
+                Sugar cream id extra to go arabica black. A white, saucer frappuccino percolator brewed spoon. Single shot robusta, coffee, trifecta, breve extra cappuccino redeye con panna. Caffeine extra wings robust macchiato cup steamed cream.
+
+                Trifecta filter ut, so cup cortado dripper froth affogato sweet qui steamed. Black, java americano café au lait caffeine kopi-luwak café au lait sugar. Crema, caramelization arabica french press, aromatic sugar whipped brewed steamed. Decaffeinated ristretto, lungo acerbic, breve barista doppio half and half milk irish black.
+            </p>
+        </div>
+    </div>
+    
+    <!-- JAVA Slide nav-->
+    <script>
+        
+        function openSlideMenu(){
+            document.getElementById('side-menu') .style.width = '250px';
+            
+            document.getElementById('main') .style.marginLeft = '250px';
+        }
+        
+        
+        function closeSlideMenu(){
+            document.getElementById('side-menu') .style.width = '0';
+            
+            document.getElementById('main') .style.marginLeft = '0';
+        }
+    </script>
+    
+    <footer>
+        <div id="footer_col">
+            <div id="f_col_1">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="locations.html">Location</a></li>
+                </ul>
+            </div>
+
+            <div id="f_col_2">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Franshise</a></li>
+                </ul>
+            </div>
+
+            <div id="f_col_3">
+                <p>Follow us</p>
+                <a target="_blank" href="http://www.facebook.com"><img src="../img/logo/FB.png" alt="Facebook Icon"></a>
+                <a target="_blank" href="http://www.instagram.com"><img src="../img/logo/insta.png" alt ="Instagram Icon"></a>
+                <a target="_blank" href="http://www.twitter.com"><img src="../img/logo/twitter.png" alt="Twitter Icon"></a>
+                <a target="_blank" href="http://www.snapchat.com"><img src="../img/logo/snap.png" alt="Snapchat Icon"></a>
+            </div>
+            
+            
+        </div>
+
+    
+    </footer>
+    
+</body>
+</html>

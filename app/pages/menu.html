@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link href="https://fonts.googleapis.com/css?family=Italianno|Merriweather|Open+Sans" rel="stylesheet">
+    
+<link rel="stylesheet" href="../styles.css" type="text/css">
+    
+	<title> Menu </title>
+</head>
+
+<body>
+   <!-- slide navigation ! LINK https://www.youtube.com/watch?v=wpGNFGqNfdU         -->
+    <nav class="menu">
+        <div class="hamburger">
+            <a href="#" onclick="openSlideMenu()">
+                 <svg width="30" height="30"> <!-- draw simple icon -->
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>  
+                </svg>
+            </a> <!-- link to nowhere, make hamburger clickable -->
+            <h1>Conscious Coffee</h1>
+           
+        </div>
+        
+        <ul class="menu-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="locations.html" >Locations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        
+        </ul>
+    </nav>
+    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="locations.html" >Locations</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>   
+    </div>
+     <img src="../img/lengde.jpg" alt="coffee beans"> <!-- Photo by Lukas from Pexels -->
+    
+    
+    <div id="main">
+        <h1>Our Coffee Selection</h1>
+        
+        <div class="flex_1_menu">
+            <div class="coffee">
+                <h2>COFFEE</h2>
+                <p class="description"><em>Perfectly roasted, fair trade coffee</em></p>
+
+                <table>
+                    <tr>
+                        <td>50,-</td>
+                        <td></td>
+                        <td>Black</td>  
+                    </tr>
+                     <tr>
+                        <td>50,-</td>
+                        <td></td>
+                        <td>Pour over</td>  
+                    </tr>
+                     <tr>
+                        <td>50,-</td>
+                        <td></td>
+                        <td>French press</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                        <td></td>
+                        <td>Espresso</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                         <td></td>
+                        <td>Americano</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                        <td></td>
+                        <td>Macchiato</td>  
+                    </tr>
+                     <tr>
+                        <td>70,-</td>
+                         <td></td>
+                        <td>Cappaccino</td>  
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="Tea">
+                <h2>Tea</h2>
+                <p class="description"><em>Sophisticated loose-leaf tea</em></p>
+
+                <table>
+                    <tr>
+                        <td>50,-</td>
+                        <td></td>
+                        <td>Earl gray</td>  
+                    </tr>
+                     <tr>
+                        <td>50,-</td>
+                         <td></td>
+                        <td>English breakfast</td>  
+                    </tr>
+                     <tr>
+                        <td>50,-</td>
+                         <td></td>
+                        <td>Chai</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                        <td></td>
+                         <td>Green</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                         <td></td>
+                        <td>Peppermint</td>  
+                    </tr>
+                     <tr>
+                        <td>60,-</td>
+                         <td></td>
+                        <td>Chamomile</td>  
+                    </tr>
+                     <tr>
+                        <td>70,-</td>
+                         <td></td>
+                        <td>Black</td>  
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="pastries">
+            <h2>Pastries</h2>
+            <p class="description"><em>Fresh pastries, right out of the owen</em></p>
+            
+            <table>
+                <tr>
+                    <td>40,-</td>
+                    <td></td>
+                    <td>Scone</td>  
+                </tr>
+                 <tr>
+                    <td>42,-</td>
+                     <td></td>
+                    <td>Blueberry muffin</td>  
+                </tr>
+                 <tr>
+                    <td>50,-</td>
+                     <td></td>
+                    <td>Bagle</td>  
+                </tr>
+                 <tr>
+                    <td>65,-</td>
+                     <td></td>
+                    <td>Cannoli</td>  
+                </tr>
+                 <tr>
+                    <td>65,-</td>
+                     <td></td>
+                    <td>Biscotti</td>  
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="extra">
+            <h2>Extra</h2>
+            
+            <table>
+                <tr>
+                    <td>15,-</td>
+                    <td></td>
+                    <td>Almond milk</td>  
+                </tr>
+                 <tr>
+                    <td>15,-</td>
+                     <td></td>
+                    <td>Soy milk</td>  
+                </tr>
+                 <tr>
+                    <td>12,-</td>
+                     <td></td>
+                    <td>Flavourd syrup</td>  
+                </tr>
+                 <tr>
+                    <td>20,-</td>
+                     <td></td>
+                    <td>Extra shot</td>  
+                </tr>
+            </table> 
+        </div>
+        
+    </div>
+    
+    <!-- JAVA Slide nav-->
+    <script>
+        
+        function openSlideMenu(){
+            document.getElementById('side-menu') .style.width = '250px';
+            
+            document.getElementById('main') .style.marginLeft = '250px';
+        }
+        
+        
+        function closeSlideMenu(){
+            document.getElementById('side-menu') .style.width = '0';
+            
+            document.getElementById('main') .style.marginLeft = '0';
+        }
+    </script>
+    
+    <footer>
+        <div id="footer_col">
+            <div id="f_col_1">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="locations.html">Location</a></li>
+                </ul>
+            </div>
+
+            <div id="f_col_2">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Franshise</a></li>
+                </ul>
+            </div>
+
+            <div id="f_col_3">
+                <p>Follow us</p>
+                <a target="_blank" href="http://www.facebook.com"><img src="../img/logo/FB.png" alt="Facebook Icon"></a>
+                <a target="_blank" href="http://www.instagram.com"><img src="../img/logo/insta.png" alt ="Instagram Icon"></a>
+                <a target="_blank" href="http://www.twitter.com"><img src="../img/logo/twitter.png" alt="Twitter Icon"></a>
+                <a target="_blank" href="http://www.snapchat.com"><img src="../img/logo/snap.png" alt="Snapchat Icon"></a>
+            </div>
+            
+            
+        </div>
+
+    
+    </footer>
+    
+</body>
+</html>
