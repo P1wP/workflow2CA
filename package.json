@@ -1,19 +1,30 @@
 {
   "name": "practical",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "* Please copy all HTML files from your app folder to a dist folder.\r * The Sass or Less should be converted to a .css file and this should be minified.\r * The images should be compressed from the original size to a smaller size by means of the task runner.\r * The browser should reload when any file is changed.",
+  "main": "COPYGRUNT.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P1wP/workflow2CA.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P1wP/workflow2CA/issues"
+  },
+  "homepage": "https://github.com/P1wP/workflow2CA#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "imagemin-mozjpeg": "^8.0.0"
   }
 }
